@@ -74,6 +74,7 @@ Example Question: The ______ of an HTML document is the part that is not display
 Type your answers here:
 
 Example Answer: *head*
+
 1. 
 
 2. 
