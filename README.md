@@ -75,58 +75,59 @@ Type your answers here:
 
 Example Answer: *head*
 
-1. 
+1. The head of an HTML document is the part that is not displayed in the web browser when the page is loaded. It contains information such as the page <title>, links to CSS (if you choose to style your HTML content with CSS), links to custom favicons, and other metadata (data about the HTML, such as the author, and important keywords that describe the document.)
 
-2. 
+2. We've already seen the `<title>` element in action — this can be used to add a title to the document. This however can get confused with the `<h1>` element, which is used to add a top level heading to your body content — this is also sometimes referred to as the page title. But they are different things! The `<h1>` element appears on the page when loaded in the browser — generally this should be used once per page, to mark up the title of your page content (the story title, or news headline, or whatever is appropriate to your usage.)
+The `<title>` element is metadata that represents the title of the overall HTML document (not the document's content.)
 
-3. 
+3. `<meta charset="utf-8">`
 
-4. 
+4. `name` specifies the type of meta element it is; what type of information it contains. `content` specifies the actual meta content.
 
-5. 
+5. favicon
 
-6. 
+6. `<link>`
 
-7. 
+7. True. The `<script>` element does not have to go in the head; in fact, often it is better to put it at the bottom of the document body (just before the closing `</body>` tag), to make sure that all the HTML content has been read by the browser before it tries to apply JavaScript to it (if JavaScript tries to access an element that doesn't yet exist, the browser will throw an error.)
 
-8. 
+8. lang
 
-9. 
+9. True!
 
-10. 
+10. One of HTML's main jobs is to give text structure and meaning (also known as semantics) so that a browser can display it correctly.
 
-11. 
+11. Unordered lists are used to mark up lists of items for which the order of the items doesn't matter. Ordered lists are lists in which the order of the items does matter.
 
-12. 
+12. In human language, we often emphasise certain words to alter the meaning of a sentence, and we often want to mark certain words as important or different in some way. HTML provides various semantic elements to allow us to mark up textual content with such effects.
 
-13. 
+13. (1) Header, (2) navigation bar, (3) main content, (4) sidebar, (5) footer.
 
-14.
+14. Sometimes you'll come across a situation where you can't find an ideal semantic element to group some items together or wrap some content. Sometimes you might want to just group a set of elements together to affect them all as a single entity with some CSS or JavaScript. For cases like these, HTML provides the `<div>` and `<span>` elements. You should use these preferably with a suitable class attribute, to provide some kind of label for them so they can be easily targeted.
 
-15. 
+15. markup language
 
-16. 
+16. False
 
-17. 
+17. (1) The opening tag, (2) the closing tag, (3) the content, and (4) the element.
 
-18. 
+18. Nesting
 
-19. 
+19. Block-level elements form a visible block on a page — they will appear on a new line from whatever content went before it, and any content that goes after it will also appear on a new line. Block-level elements tend to be structural elements on the page that represent, for example, paragraphs, lists, navigation menus, footers, etc. A block-level element wouldn't be nested inside an inline element, but it might be nested inside another block-level element. Inline elements are those that are contained within block-level elements and surround only small parts of the document’s content, not entire paragraphs and groupings of content. An inline element will not cause a new line to appear in the document; they would normally appear inside a paragraph of text, for example an `<a>` element (hyperlink) or emphasis elements such as `<em>` or `<strong>`.
 
-20. 
+20. The `<img>` element
 
-21. 
+21. Attributes
 
-22. 
+22. When you look around the World Wide Web, you'll come across all kind of strange markup styles, including attribute values without quotes. This is allowable in certain circumstances, but will break your markup in others.
 
-23. 
+23. Can
 
-24. 
+24. (1) The doctype, (2) the `<html>` element, (3) the `<head>` element, (4) `<meta charset="utf-8">`, (5) the `<title>` element, and (6) the `<body>` element.
 
-25. 
+25. Readability
 
-26. 
+26. Character references
 
-27. 
+27. `<!--<p>Please comment this element out.</p>-->`
 
-28.
+28. False
